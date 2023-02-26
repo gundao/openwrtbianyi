@@ -17,5 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 cd package && git clone https://github.com/kenzok8/small-package
-cd small-package && git clone https://github.com/cokebar/openwrt-vlmcsd.git && git clone https://github.com/cokebar/luci-app-vlmcsd.git && rm -rf nftables && rm -rf nginx && rm -rf miniupnpd && rm -rf luci-lib-ipkg
+cd small-package && git clone https://github.com/cokebar/openwrt-vlmcsd.git && git clone https://github.com/cokebar/luci-app-vlmcsd.git && rm -rf nftables && rm -rf nginx && rm -rf miniupnpd && rm -rf luci-lib-ipkg && rm -rf uwsgi
 
